@@ -1,0 +1,32 @@
+.header_mem {
+    border-bottom: solid 2px green;
+}
+
+.logo1 {
+    width: 70px;
+    margin-top: 4px;
+}
+
+.header_mem h1{
+    margin: 0px 0px;
+}
+
+.member_pic {
+    width: 20%;
+    margin: 10px;
+}
+
+.member_box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    align-items:center;
+}
+.member_pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+}
