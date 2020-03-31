@@ -12,20 +12,24 @@
         <h1><a href="/home"><img class="logo1" src="/images/goldeis_logo.png" alt="GOLDEIS"></a></h1>
     </header>
     <div class="member_box">
-        <div class="member_pic">
-            <a href="home/mai"><img src="/images/MAI.jpg"></a>
+        <div class="above">
+            <div class="member_pic">
+                <a href="home/mai"><img src="/images/MAI.jpg"></a>
+            </div>
+            <div class="member_pic">
+                <a href="home/airi"><img src="/images/AIRI.jpg"></a>
+            </div>
         </div>
-        <div class="member_pic">
-            <a href="home/airi"><img src="/images/AIRI.jpg"></a>
-        </div>
-        <div class="member_pic">
-            <a href="home/mihiro"><img src="/images/MIHIRO.jpg"></a>
-        </div>
-        <div class="member_pic">
-            <a href="home/ayaka"><img src="/images/AYAKA.jpg"></a>
-        </div>
-        <div class="member_pic">
-            <a href="home/moe"><img src="/images/MOE.jpg"></a>
+        <div class="under">
+            <div class="member_pic">
+                <a href="home/mihiro"><img src="/images/MIHIRO.jpg"></a>
+            </div>
+            <div class="member_pic">
+                <a href="home/ayaka"><img src="/images/AYAKA.jpg"></a>
+            </div>
+            <div class="member_pic">
+                <a href="home/moe"><img src="/images/MOE.jpg"></a>
+            </div>
         </div>
     </div>
 </body>

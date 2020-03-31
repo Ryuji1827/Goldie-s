@@ -17,16 +17,35 @@
 }
 
 .member_box {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 100vh;
-    align-items:center;
+    background-image: url(/images/cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
 }
+
 .member_pic img {
     width: 200px;
     height: 200px;
     object-fit: cover; 
+}
+
+.above {
+        display: flex;
+        justify-content: flex-start;
+        width: 900px;
+        height: 200px;
+        align-items:center;
+        margin: 10px;
+        padding: 20px;
+}
+
+.under {
+        display: flex;
+        justify-content: flex-end;
+        width: 900px;
+        height: 200px;
+        align-items:center;        
+        margin: 10px;
+        padding: 20px;
 }
