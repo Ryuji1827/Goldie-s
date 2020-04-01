@@ -17,11 +17,19 @@
 }
 
 .member_box {
-    background-image: url(/images/cafe.jpg);
+    position: relative;
+    margin: 100px 26px 100px;
+}
+
+.background {
+    background-image: url(/images/goldies.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    position: absolute;
+    opacity: 0.4;
     z-index: -1;
+    width: 952px;
+    height: 100%;
 }
 
 .member_pic img {
@@ -31,21 +39,30 @@
 }
 
 .above {
-        display: flex;
-        justify-content: flex-start;
-        width: 900px;
-        height: 200px;
-        align-items:center;
-        margin: 10px;
-        padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 900px;
+    height: 200px;
+    align-items:　center;
+    margin: 10px;
+    padding: 20px;
 }
 
 .under {
-        display: flex;
-        justify-content: flex-end;
-        width: 900px;
-        height: 200px;
-        align-items:center;        
-        margin: 10px;
-        padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 900px;
+    height: 200px;
+    align-items: center;        
+    margin: 10px;
+    padding: 20px;
+}
+
+.big_box {
+    background-color: #f3ebe3;
+    position: absolute;
+    z-index: -3;
+    width: 1000px;
+    height: 600px;
+    margin: 100px;
 }
