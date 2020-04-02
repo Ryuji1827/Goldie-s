@@ -18,3 +18,8 @@ Route::get('/', function () {
 });
 Route::get('/home', 'HomeController@home_show');
 Route::get('/home/member', 'MemberController@member_show');
+Route::get('/home/member/mai', 'MemberController@mai');
+Route::get('/home/member/airi', 'MemberController@airi');
+Route::get('/home/member/mihiro', 'MemberController@mihiro');
+Route::get('/home/member/ayaka', 'MemberController@ayaka');
+Route::get('/home/member/moe', 'MemberController@moe');

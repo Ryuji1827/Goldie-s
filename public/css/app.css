@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);@import url(https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c);@charset "UTF-8";
 
 .logo {
   width: 110px;
@@ -106,7 +106,7 @@ p {
 
 .member_box {
   position: relative;
-  margin: 100px 26px 100px;
+  margin: 10px 26px 100px;
 }
 
 .background {
@@ -153,7 +153,73 @@ p {
   z-index: -3;
   width: 1000px;
   height: 600px;
-  margin: 100px;
+  margin: 100px 100px 100px 200px;
+}
+
+.background_white {
+  background-color: white;
+  position: absolute;
+  z-index: -2;
+  width: 952px;
+  height: 100%;
+}
+
+.bb_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bb_header p {
+  font-size: 22px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  width: 100px;
+  height: 28px;
+  margin: 10px 0 0 20px;
+}
+
+#background_black {
+  background-color: #180e0e;
+  position: absolute;
+  z-index: -3;
+}
+
+#mai {
+  width: 400px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.prof_box {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 70px 20px;
+}
+
+.name p {
+  font-size: 30px;
+  display: inline-block;
+}
+
+.profile {
+  margin: 0 10px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.profile th {
+  color: #319c43;
+  font-weight: normal;
+}
+
+.profile th::after {
+  content: "-----------";
+}
+
+.history th {
+  font-weight: normal;
 }
 
 html {

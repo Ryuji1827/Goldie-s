@@ -18,7 +18,7 @@
 
 .member_box {
     position: relative;
-    margin: 100px 26px 100px;
+    margin: 10px 26px 100px;
 }
 
 .background {
@@ -64,5 +64,31 @@
     z-index: -3;
     width: 1000px;
     height: 600px;
-    margin: 100px;
+    margin: 100px 100px 100px 200px;
+}
+
+.background_white {
+    background-color: white;
+    position: absolute;
+    z-index: -2;
+    width: 952px;
+    height: 100%;
+}
+
+.bb_header {
+    display: flex;
+    justify-content: space-between;
+    p { 
+    font-size: 22px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 100px;
+    height: 28px;
+    margin: 10px 0 0 20px;
+    }
+}
+
+#background_black {
+    background-color: rgb(24, 14, 14);
+    position: absolute;
+    z-index: -3;
 }
