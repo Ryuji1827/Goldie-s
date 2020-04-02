@@ -4,19 +4,43 @@
     object-fit: cover; 
 }
 
+#airi {
+    width: 400px;
+    height: 260px;
+    object-fit: cover;
+}
+
+#mihiro {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#ayaka {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#moe {
+    width: 400px;
+    height: 260px;
+    object-fit: cover;
+}
+
 .prof_box {
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px;
     gap: 70px 20px;
-
 }
 
 .name  p {
     font-size: 30px;
     display: inline-block;
-    
 }
 
 .profile {

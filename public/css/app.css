@@ -190,6 +190,38 @@ p {
      object-fit: cover;
 }
 
+#airi {
+  width: 400px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#mihiro {
+  width: 400px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+#ayaka {
+  width: 400px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+#moe {
+  width: 400px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .prof_box {
   padding: 20px;
   display: grid;

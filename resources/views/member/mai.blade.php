@@ -46,7 +46,7 @@
                     </table>
                 </div>
                 <div class="name">
-                    <p style="font-size: 44px">野田　麻衣</p><p>MAI NODA</p>
+                    <p style="font-size: 33px">野田　麻衣</p><p>MAI NODA</p>
                 </div>
                 <div class="history">
                     <table>
